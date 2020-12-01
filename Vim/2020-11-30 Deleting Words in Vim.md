@@ -1,5 +1,17 @@
 # Deleting Words in Vim
 
-1. Use `dw` to **delete word**. Cursor placement is important! If your cursor is not on the first character, it will only delete from your cursor to the end of the word.
-2. Use `diw` to **delete inside word**. Deletes the entire word that your cursor resides in.
-3. Use `dt<char>` to delete to character. Deletes from your cursor to the specified character.
+|Command|Description|
+|:---|:-----|
+|x|Delete the current character.|
+|dw|Delete the current word.|
+|dd|Delete the current line.|
+|5dd|Delete five(5) lines.|
+|d$|Delete till the end of line.|
+|d0|Delete till the beginning of the line|
+|dt<char>| Delete toi the character from the cursor.|
+|:1,.d|Delete to the beginning of the file. Delete from line 1 to the current line position.|
+|:., $d|Delete to the end of the file. From the current position to end of the file, delete.|
+
+---
+### Source
+[AlvinAlexander.com](https://alvinalexander.com/linux/vi-vim-delete-line-commands-to-end/)
