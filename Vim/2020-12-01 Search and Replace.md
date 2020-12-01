@@ -1,7 +1,9 @@
 # Vim Search and Replace
 
-**Original Text**
+**Original Text**  
+
 Does a boy get a chance to paint black a fence every day? That put the thing in a new light. Ben Rogers stopped nibbling his apple. Tom swept his brush daintily back and forth–stepped back to note the effect–added a touch here and there–criticised the effect again–Ben watching every move and getting more and more interested, more and more absorbed.  
+
 
 |Command|Description|
 |:---|:---|
