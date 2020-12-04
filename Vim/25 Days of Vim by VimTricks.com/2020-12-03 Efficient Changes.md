@@ -6,6 +6,7 @@ The Verbs of Vim:
 |d|Delete|
 |c|Change|
 |v|Visual|
+|w|Write|
 
 
 |Noun|Description|
