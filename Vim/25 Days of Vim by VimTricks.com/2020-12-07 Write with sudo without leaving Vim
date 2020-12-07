@@ -1,0 +1,10 @@
+# Write with sudo without leaving Vim
+
+There are 2 methods:
+1. Install eunuch.vim plugin and use the `:SudoWrite` command.
+2. Using the `tee` utility
+    ```
+    :w !sudo tee %
+    ```
+
+**Source:**[VimTricks.com](https://vimtricks.com/p/vimtrick-write-with-sudo-without/)
